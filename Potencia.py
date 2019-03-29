@@ -7,4 +7,7 @@ def a_power_b(a,b):
     print(prod)
     return prod
 
+x=int(input("Introduce la base: "))
+y=int(input("Introduce el exponente: "))
+a_power_b(x,y)
 
