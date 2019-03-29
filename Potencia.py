@@ -3,7 +3,10 @@ def a_power_b(a,b):
 
     for x in range(0,b):
         prod=prod*a
-
+           
+    if a>1000 or b>1000:
+    raise NameError('El número es demasiado grande')
+   
     print(prod)
     return prod
 
